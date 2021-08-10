@@ -8,7 +8,10 @@
     <title>Studio Ghibli</title>
   </head>
   <body>
-    <header class="grid">
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <header class="grid" data-anime="400">
       <div class="header__container">
         <div class="header__logo">
           <a href="index.html"
@@ -52,13 +55,15 @@
     <main class="grid">
       <section class="hero">
         <div class="hero__text">
-          <h2 class="hero__text--subtitle">Hayao Miyazaki</h2>
-          <h1 class="hero__text--title">A Viagem de Chihiro</h1>
-          <p class="hero__text--paragraph">
+          <h2 class="hero__text--subtitle" data-anime="600">Hayao Miyazaki</h2>
+          <h1 class="hero__text--title" data-anime="800">
+            A Viagem de Chihiro
+          </h1>
+          <p class="hero__text--paragraph" data-anime="1000">
             Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que
             a desobedecem são transformados em animais.
           </p>
-          <div class="hero__buttons">
+          <div class="hero__buttons" data-anime="1200">
             <button class="hero__buttons--watch">
               <img src="assets/img/play.svg" alt="Botão de Play" />
               <a href="#">Assistir Agora</a>
@@ -68,7 +73,7 @@
             </button>
           </div>
         </div>
-        <div class="hero__image">
+        <div class="hero__image" data-anime="1600">
           <img src="assets/img/ilustracao.png" alt="A Viagem de Chihiro" />
         </div>
       </section>
@@ -103,5 +108,7 @@
         </ul>
       </nav>
     </footer>
+    <script src="assets/js/simple-anime.js"></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>

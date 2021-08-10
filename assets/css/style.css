@@ -319,3 +319,14 @@ footer {
     max-width: 70%;
   }
 }
+
+/* JS */
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .anime {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 800ms, transform 800ms;
+}
