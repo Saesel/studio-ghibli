@@ -4,7 +4,7 @@
 </p>
 
 ## Sobre   
-Este projeto foi desenvolvido para o quinto desafio da comunidade **[Codelândia](https://discord.com/invite/QevDJqCzaY)**. O objetivo dele era igual aos seus anteriores, de **praticar Front-end** desenvolvendo um simples site sobre o filme _**A Viagem de Chihiro**_, do **Studio Ghibli**, sendo o **semântico** e **responsivo** o possível. Desenvolvi umas **animações simples** para a imagem principal do site e também para os botões.
+Este projeto foi desenvolvido para o quinto desafio da comunidade **[Codelândia](https://discord.com/invite/QevDJqCzaY)**. O objetivo dele era igual aos seus anteriores, de **praticar Front-end** desenvolvendo um simples site sobre o filme _**A Viagem de Chihiro**_, do **Studio Ghibli**, sendo o mais **semântico** e **responsivo** o possível. Desenvolvi algumas **animações simples** para a imagem principal do site e também para os botões.
 
 ---
 
